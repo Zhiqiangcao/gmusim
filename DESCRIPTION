@@ -1,0 +1,20 @@
+Package: gmusim
+Title: Growth Modelling using a Shape Invariant Model with Random Effects
+Version: 0.0.1
+Date: 2018-06-03
+Author: Zhiqiang Cao, Man-Yu Wong
+Maintainer: Zhiqiang Cao <zcaoae@connect.ust.hk>
+Description: Functions for fitting growth curves using SIM (Shape Invariant
+    Model) with random effects (Beath, 2007) involved in time independent covariates 
+    and computing some public health statistics, such as age at peak velocity (apv), 
+    peak velocity (pv) and height (or weight) at peak velocity (ypv). This package is   
+    based on R package sitar and SIM model, and the basis of this model is that a 
+    population has a common characteristic curve or function, which by shifting and 
+    scaling can be made to have the form of any individual curve. 
+License: GPL (>= 2)
+LazyData: true
+Depends: R (>= 3.0.0), nlme, splines
+Imports: sitar(>= 1.0.8)
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2017-11-08 02:04:03 UTC; zcaoae
